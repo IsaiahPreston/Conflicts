@@ -2,6 +2,7 @@
 using namespace std;
 
 void say(string s);
+int add (int a, int b);
 
 int main() {
     cout << "Greeting . . . " << endl;
@@ -11,4 +12,7 @@ int main() {
 
 void say(string s) {
     cout << s << endl;
+}
+int add (int a, int b) {
+    return a + b;
 }
